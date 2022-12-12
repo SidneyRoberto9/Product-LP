@@ -3,7 +3,7 @@ import 'aos/dist/aos.css';
 import Aos from 'aos';
 import React from 'react';
 
-import { Hero } from './components';
+import { About, CtaSection, Features, Footer, Hero, Testimonials } from './components';
 
 export const App = () => {
 	Aos.init({
@@ -14,6 +14,11 @@ export const App = () => {
 	return (
 		<div className='overflow-hidden'>
 			<Hero />
+			<About />
+			<Features />
+			<Testimonials />
+			<CtaSection />
+			<Footer />
 		</div>
 	);
 };
